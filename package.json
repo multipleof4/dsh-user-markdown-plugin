@@ -1,0 +1,17 @@
+{
+  "name": "dsh-user-markdown-plugin",
+  "version": "0.1.0",
+  "description": "Cordis plugin for DeepSeek Harness that applies Markdown rendering to user messages in the Web GUI",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web"
+    }
+  },
+  "license": "MIT"
+}
